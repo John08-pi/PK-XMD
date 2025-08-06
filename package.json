@@ -1,4 +1,4 @@
-```json
+
 {
   "name": "PK-XMD",
   "version": "1.0.0",
@@ -14,8 +14,7 @@
     "discord.js": "^14.11.0"
 }
 }
-``
-  },
+
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.9",
     "@adiwajshing/keyed-db": "^0.2.4",
