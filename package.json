@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By pkdriller",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name PK-XMD",
+    "start": "remove pm2 user node start index.js --deep-monitoring --attach --name PK-XMD",
     "stop": "pm2 stop PK-XMD",
     "restart": "pm2 restart PK-XMD"
   },
