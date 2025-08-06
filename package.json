@@ -1,12 +1,20 @@
+```json
 {
   "name": "PK-XMD",
-  "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By pkdriller",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Created by pkd",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+},
   "scripts": {
-    "start": "remove pm2 user node start index.js --deep-monitoring --attach --name PK-XMD",
-    "stop": "pm2 stop PK-XMD",
-    "restart": "pm2 restart PK-XMD"
+    "start": "node index.js"
+},
+  "dependencies": {
+    "discord.js": "^14.11.0"
+}
+}
+``
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.9",
